@@ -2,8 +2,8 @@
 		04 Encryption/Decryption algorithm
 	- Simple encryption algorithm [Caesar cipher]
 	- Author : Ibrahim Mohamed Abdul-Meged.
-			 : facebook.com/Ibrahiim.Pasha
-			 : github.com/Ibrahiim-Pasha
+		 : facebook.com/Ibrahiim.Pasha
+		 : github.com/Ibrahiim-Pasha
 	- Date : 29/9/2016 - 7:41 AM
 
 *************************************************/
@@ -68,17 +68,6 @@ string readFile()
 	return str;
 }
 
-/*void saveFile()
-{
-	string fileName, str;
-	cout << "\nFile name: ";
-	cin >> fileName;
-
-	ofstream file;
-	file.open(fileName);
-	file << str ;
-	file.close();
-}*/
 void encryption()
 {
 	int encKey, encSub;
